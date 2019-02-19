@@ -8,8 +8,8 @@ const express = require('express');
 const app = express();
 
 //Establish the PORT number
-// const PORT = process.env.PORT || 3333;
-const PORT = 4444;
+const PORT = process.env.PORT || 4444;
+// const PORT = 4444;
 
 //tell express where to load our "html" files from
 app.use(express.static('./public'));
